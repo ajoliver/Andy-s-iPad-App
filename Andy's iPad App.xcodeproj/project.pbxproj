@@ -38,21 +38,21 @@
 		BF083C0D15B6CB1B00E5A366 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF083C0F15B6CB1B00E5A366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF083C1115B6CB1B00E5A366 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BF083C1515B6CB1B00E5A366 /* Andy's iPad App-Info.plist */ = {isa = PBXFileReference; path = "Andy's iPad App-Info.plist"; sourceTree = "<group>"; };
+		BF083C1515B6CB1B00E5A366 /* Andy's iPad App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Andy's iPad App-Info.plist"; sourceTree = "<group>"; };
 		BF083C1715B6CB1B00E5A366 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF083C1915B6CB1B00E5A366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF083C1B15B6CB1B00E5A366 /* Andy's iPad App-Prefix.pch */ = {isa = PBXFileReference; path = "Andy's iPad App-Prefix.pch"; sourceTree = "<group>"; };
-		BF083C1C15B6CB1B00E5A366 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF083C1B15B6CB1B00E5A366 /* Andy's iPad App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Andy's iPad App-Prefix.pch"; sourceTree = "<group>"; };
+		BF083C1C15B6CB1B00E5A366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF083C1D15B6CB1B00E5A366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF083C2015B6CB1B00E5A366 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		BF083C2315B6CB1B00E5A366 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		BF083C2515B6CB1B00E5A366 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BF083C2515B6CB1B00E5A366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF083C2615B6CB1B00E5A366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF083C2D15B6CB1B00E5A366 /* Andy's iPad AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andy's iPad AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF083C2E15B6CB1B00E5A366 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BF083C3615B6CB1B00E5A366 /* Andy's iPad AppTests-Info.plist */ = {isa = PBXFileReference; path = "Andy's iPad AppTests-Info.plist"; sourceTree = "<group>"; };
+		BF083C3615B6CB1B00E5A366 /* Andy's iPad AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Andy's iPad AppTests-Info.plist"; sourceTree = "<group>"; };
 		BF083C3815B6CB1B00E5A366 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BF083C3A15B6CB1B00E5A366 /* Andy_s_iPad_AppTests.h */ = {isa = PBXFileReference; path = Andy_s_iPad_AppTests.h; sourceTree = "<group>"; };
+		BF083C3A15B6CB1B00E5A366 /* Andy_s_iPad_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Andy_s_iPad_AppTests.h; sourceTree = "<group>"; };
 		BF083C3B15B6CB1B00E5A366 /* Andy_s_iPad_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Andy_s_iPad_AppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -375,6 +375,7 @@
 				GCC_PREFIX_HEADER = "Andy's iPad App/Andy's iPad App-Prefix.pch";
 				INFOPLIST_FILE = "Andy's iPad App/Andy's iPad App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,6 +387,7 @@
 				GCC_PREFIX_HEADER = "Andy's iPad App/Andy's iPad App-Prefix.pch";
 				INFOPLIST_FILE = "Andy's iPad App/Andy's iPad App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
